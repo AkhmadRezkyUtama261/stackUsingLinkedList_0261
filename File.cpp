@@ -89,6 +89,10 @@ int main()
     {
         cout << "1. Push\n";
         cout << "2. pop\n";
-        cout << "2. peek\n";
+        cout << "3. peek\n";
+        cout << "4. Exit\n";
+        cout << "Enter your choice: ";
+        cin >> choice;
+        
     }
 }
