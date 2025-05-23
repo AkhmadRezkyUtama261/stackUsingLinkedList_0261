@@ -50,6 +50,17 @@ class stack
         cout << "Popped value: " << top->data << endl;
         delete temp;
     }
-    
+
+    //peek/Top operation: retrieve the value of the topmost element without remo
+    void peek()
+    {
+        if (top == NULL)
+        {
+            cout << "List is empty." << endl;
+        }
+
+
+    }
+
 
 }
