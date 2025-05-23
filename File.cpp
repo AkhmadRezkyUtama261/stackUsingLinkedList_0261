@@ -10,7 +10,7 @@ class Node
 
     Node()
     {
-next = NULL
+next = NULL;
     }
 };
 
@@ -47,11 +47,11 @@ class stack
 
         Node *temp = top; // Create a temporary pointer to the top node
         top = top->next; // Update the top pointer to the next node
-        cout << "Popped value: " << top->data << endl;
+        cout << "Popped value: " << temp->data << endl;
         delete temp;
     }
 
-    //peek/Top operation: retrieve the value of the topmost element without remo
+    //peek/Top operation: retrieve the value of the topmost element without removing it
     void peek()
     {
         if (top == NULL)
@@ -74,13 +74,13 @@ cout << endl;
     //IsEmpty operation: Check if the stack is empty
     bool isEmpty()
     {
-        return top == NUll; // Return true if the top pointer is NULL, Indicating
+        return top == NULL; // Return true if the top pointer is NULL, Indicating an empty stack
     }
 };
 
 int main()
 {
-    Stack stack;
+    stack stack;
 
     int choice = 0;
     int value;
@@ -128,6 +128,7 @@ int main()
         cout << "Invalid choice. Try again. " << endl;
         break;
     }
-
+    cout << endl;
     }
+    return 0;
 }
