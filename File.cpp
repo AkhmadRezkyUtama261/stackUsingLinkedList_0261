@@ -76,6 +76,6 @@ cout << endl;
     {
         return top == NUll; // Return true if the top pointer is NULL, Indicating
     }
+};
 
-
-}
+int main()
