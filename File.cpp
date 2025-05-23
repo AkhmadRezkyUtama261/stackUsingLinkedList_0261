@@ -89,5 +89,6 @@ int main()
     {
         cout << "1. Push\n";
         cout << "2. pop\n";
+        cout << "2. peek\n";
     }
 }
